@@ -172,10 +172,13 @@ ul li {
   font-size: 26px;
   color: #020312;
 }
+.navbar .navbar-brand {
+  background: #fd6d3f;
+}
 
 .navbar .navbar-brand img {
-  width: 120px;
-  margin-right: 10px;
+  width: 10rem;
+  padding: 10px 25px 5px 10px;
 }
 
 .navbar .navbar-nav li {
@@ -190,7 +193,7 @@ ul li {
 }
 
 .navbar .navbar-nav li:hover .nav-link {
-  color: #f27649;
+  color: #fd6d3f;
 }
 
 .navbar .navbar-toggler {
@@ -224,7 +227,7 @@ ul li {
 }
 
 .home-intro .content h2 .color-highlight {
-  color: #f27649;
+  color: #fd6d3f;
 }
 
 .home-intro .content h2:nth-child(2) {
@@ -279,12 +282,12 @@ ul li {
 }
 
 .item h4 span {
-  color: #f27649;
+  color: #fd6d3f;
 }
 
 .item h4 {
   text-decoration: underline;
-  text-decoration-color: salmon;
+  text-decoration-color: #fd6d3f;
 }
 
 .item p {
@@ -340,7 +343,7 @@ ul li {
 
 .process-work .content i {
   font-size: 60px;
-  color: #f27649;
+  color: #fd6d3f;
 }
 
 .process-work .content h5 {
@@ -470,7 +473,7 @@ ul li {
 
 .services .content i {
   font-size: 60px;
-  color: #f27649;
+  color: #fd6d3f;
 }
 
 .services .content .clone-icon i {
@@ -574,7 +577,6 @@ footer {
 
 footer .brand {
   font-size: 30px;
-  color: #fff;
   font-weight: 700;
   margin-bottom: 15px;
 }
