@@ -1,0 +1,51 @@
+.about .container {
+  background: #ffae919c;
+  border-radius: 0.5rem;
+}
+.about .content {
+  /* background: #aaa; */
+  width: 100%;
+  padding-left: 10rem;
+}
+
+.about .content-tag h3 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 3rem;
+  text-align: start;
+  padding: 3rem;
+}
+.about .content-tag p {
+  padding-left: 2rem;
+}
+
+/* .about .content-image img {
+  width: 30vw;
+  height: 45vh;
+
+  display: none;
+} */
+
+.item {
+  width: 30rem;
+  height: 10rem;
+  padding-top: 2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  text-align: start;
+}
+
+.item h4 span {
+  color: #f27649;
+}
+
+.item h4 {
+  text-decoration: underline;
+  text-decoration-color: salmon;
+}
+
+.item p {
+  padding-top: 10px;
+  color: black;
+}
