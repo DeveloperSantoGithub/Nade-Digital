@@ -145,7 +145,6 @@ ul li {
 .section-title .title-top {
   margin-top: 10px;
   margin-bottom: 10px;
-  text-transform: uppercase;
   color: #fd6d3f;
   letter-spacing: 2px;
   font-size: 18px;
@@ -259,9 +258,9 @@ ul li {
 /* about us */
 
 .about .container {
-  background: hsla(14, 100%, 88%, 0.651);
+  background: #ffcdbc;
   border-radius: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .about .content {
   /* background: #aaa; */
@@ -299,11 +298,14 @@ ul li {
 
 .item p {
   color: rgb(88, 88, 88);
+  padding-left: 2rem;
+  font-weight: 200;
+  font-size: 20px;
 }
 
-/* process work */
+/* process work ---> Certification */
 .process-work .row {
-  min-height: 20rem;
+  min-height: 10rem;
 }
 
 .process-work .content {
@@ -532,7 +534,7 @@ ul li {
 
 /* words */
 .words-section .content {
-  background: linear-gradient(120deg, #0d0d0d, #888888);
+  background: #fd6d3f;
   padding: 40px;
   border-radius: 15px;
 }
@@ -553,6 +555,17 @@ ul li {
 
 .words-section .content .button-wrap .button {
   margin-top: 0;
+}
+.words-section .content .button-wrap .w-btn {
+  margin-top: 0;
+  background: #f5f5f5;
+  color: #fd6d3f;
+}
+.words-section .content .button-wrap .w-btn:hover {
+  margin-top: 0;
+  background: #000000;
+  color: #ffffff;
+  opacity: 1;
 }
 
 /* contact */
