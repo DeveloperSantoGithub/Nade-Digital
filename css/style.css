@@ -171,6 +171,16 @@ ul li {
   padding: 15px 0;
 }
 
+.gtn {
+  border: solid 2px #292929;
+  border-radius: 0.5rem;
+}
+/* .gtn:hover {
+  background: #fd6d3f;
+  transition: all 0.3s ease;
+  color: #000000;
+} */
+
 .navbar .navbar-brand h1 {
   font-size: 26px;
   color: #020312;
