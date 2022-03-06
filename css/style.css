@@ -23,7 +23,7 @@ Table of Content:
 /* variable */
 
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap");
 
 /* general */
@@ -54,7 +54,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 22px;
 }
 
 h3 {
@@ -146,9 +146,10 @@ ul li {
   margin-top: 10px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #ff977d;
+  color: #fd6d3f;
   letter-spacing: 2px;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .section-title h3 {
@@ -176,12 +177,11 @@ ul li {
   color: #020312;
 }
 .navbar .navbar-brand {
-  background: #fd6d3f;
+  /* background: #fd6d3f; */
 }
 
 .navbar .navbar-brand img {
   width: 10rem;
-  padding: 10px 25px 5px 10px;
 }
 
 .navbar .navbar-nav li {
@@ -221,16 +221,19 @@ ul li {
 
 /* home intro */
 .home-intro {
-  padding: 175px 0;
+  padding: 120px 0;
 }
 
 .home-intro .content h2 {
-  font-size: 64px;
-  font-weight: 800;
+  font-size: 3.4rem;
+  font-weight: bold;
+  line-height: 90%;
+  margin-top: 2rem;
 }
 
 .home-intro .content h2 span {
-  color: #fd6d3f;
+  font-size: 2.7rem;
+  font-weight: 500;
 }
 .home-intro .content p {
   margin-top: 1.5rem;
@@ -245,6 +248,7 @@ ul li {
 }
 
 .home-intro .content-image svg {
+  padding-top: 3.5rem;
   width: 100%;
 }
 
@@ -457,7 +461,7 @@ ul li {
 }
 
 .services .content:hover {
-  background: linear-gradient(120deg, #0d0d0d, #888888);
+  background: #fd6d3f;
   transition: all 0.3s ease;
 }
 
