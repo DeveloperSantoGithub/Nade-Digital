@@ -480,6 +480,13 @@ ul li {
 
 .services .content i {
   font-size: 60px;
+  padding-top: 35px;
+  color: #fd6d3f;
+}
+.services .content .fa-icon {
+  font-size: 50px;
+  padding: 22px;
+
   color: #fd6d3f;
 }
 
@@ -491,12 +498,27 @@ ul li {
   opacity: 0;
   transition: all 0.3s ease;
 }
+.services .content .clone-icon i {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  right: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
 
 .services .content h5 {
   margin-bottom: 10px;
 }
 
 .services .content:hover .clone-icon i {
+  position: absolute;
+  top: -26px;
+  left: -12px;
+  right: 0;
+  opacity: 0.2;
+}
+.services .content:hover .clone-icon .fa-icon {
   position: absolute;
   top: 7px;
   left: -12px;
