@@ -233,7 +233,7 @@ ul li {
 .home-intro .content h2 {
   font-size: 3.4rem;
   font-weight: bold;
-  line-height: 90%;
+  line-height: 100%;
   margin-top: 2rem;
 }
 
@@ -616,16 +616,15 @@ form textarea {
 
 /* footer bottom */
 .footer-bottom {
-  background: #020312;
+  background: #000000;
   text-align: center;
-  padding: 35px 0 35px;
-  border-top: 1px solid #23375b;
+  padding: 15px 0 25px;
 }
 
 /* footer */
 footer {
-  background: #020312;
-  padding: 90px 0 80px;
+  background: #000000;
+  padding: 40px 0 30px;
 }
 
 footer .brand {

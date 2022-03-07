@@ -519,7 +519,7 @@
           <h5 class="title-top">Work</h5>
           <h3>Brands We’re Behind</h3>
         </div>
-        <div class="portfolio-filter-menu">
+        <!-- <div class="portfolio-filter-menu">
           <ul>
             <li data-filter="all" class="active">
               <span>All</span>
@@ -534,77 +534,47 @@
               <span>Branding</span>
             </li>
           </ul>
-        </div>
+        </div> -->
         <div class="row no-gutters filter-container">
           <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
             <div class="content-image">
-              <a href="images/portfolio1.jpg" class="portfolio-popup">
-                <img src="images/portfolio1.jpg" alt="portfolio-image" />
-                <div class="image-overlay"></div>
-                <div class="image-caption">
-                  <h4>Color Wall</h4>
-                  <span>Branding</span>
-                </div>
+              <a href="brand-img/Kernel.png" class="portfolio-popup">
+                <img src="brand-img/Kernel.png" alt="portfolio-image" />
               </a>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1">
             <div class="content-image">
-              <a href="images/portfolio2.jpg" class="portfolio-popup">
-                <img src="images/portfolio2.jpg" alt="portfolio-image" />
-                <div class="image-overlay"></div>
-                <div class="image-caption">
-                  <h4>Smooth Flower</h4>
-                  <span>Branding</span>
-                </div>
+              <a href="brand-img/Oleek.png" class="portfolio-popup">
+                <img src="brand-img/Oleek.png" alt="portfolio-image" />
               </a>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="2">
             <div class="content-image">
-              <a href="images/portfolio3.jpg" class="portfolio-popup">
-                <img src="images/portfolio3.jpg" alt="portfolio-image" />
-                <div class="image-overlay"></div>
-                <div class="image-caption">
-                  <h4>Vintage Building</h4>
-                  <span>Branding</span>
-                </div>
+              <a href="brand-img/HF.png" class="portfolio-popup">
+                <img src="brand-img/HF.png" alt="portfolio-image" />
               </a>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
             <div class="content-image">
-              <a href="images/portfolio4.jpg" class="portfolio-popup">
-                <img src="images/portfolio4.jpg" alt="portfolio-image" />
-                <div class="image-overlay"></div>
-                <div class="image-caption">
-                  <h4>Theo Digital</h4>
-                  <span>Branding</span>
-                </div>
+              <a href="brand-img/Next Corp.png" class="portfolio-popup">
+                <img src="brand-img/Next Corp.png" alt="portfolio-image" />
               </a>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="2">
             <div class="content-image">
-              <a href="images/portfolio5.jpg" class="portfolio-popup">
-                <img src="images/portfolio5.jpg" alt="portfolio-image" />
-                <div class="image-overlay"></div>
-                <div class="image-caption">
-                  <h4>Painted Wall</h4>
-                  <span>Branding</span>
-                </div>
+              <a href="brand-img/Regals.png" class="portfolio-popup">
+                <img src="brand-img/Regals.png" alt="portfolio-image" />
               </a>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1">
             <div class="content-image">
-              <a href="images/portfolio6.jpg" class="portfolio-popup">
-                <img src="images/portfolio6.jpg" alt="portfolio-image" />
-                <div class="image-overlay"></div>
-                <div class="image-caption">
-                  <h4>Blue Lolipop</h4>
-                  <span>Branding</span>
-                </div>
+              <a href="brand-img/Shirsho.png" class="portfolio-popup">
+                <img src="brand-img/Shirsho.png" alt="portfolio-image" />
               </a>
             </div>
           </div>
@@ -683,7 +653,10 @@
             <div class="col-md-4 col-sm-12">
               <div class="content">
                 <h5>Address</h5>
-                <p>House 17, Road 5, Block B, Banasree, Rampura, Dhaka-1219</p>
+                <p>
+                  House 17, Road 5, Block B, Banasree, <br />
+                  Rampura, Dhaka-1219
+                </p>
                 <h5>Phone</h5>
                 <p>+88 01822989801</p>
                 <h5>Email</h5>
@@ -692,20 +665,11 @@
             </div>
             <div class="col-md-8 col-sm-12">
               <div class="content-right">
-                <form
-                  action="contact-form.php"
-                  class="contact-form"
-                  id="contact-form"
-                  method="post"
-                >
+                <form action="https://formspree.io/f/xayvjaao" method="post">
                   <div class="row">
                     <div class="col">
                       <div id="first-name-field">
-                        <input
-                          type="text"
-                          placeholder="Name"
-                          name="form-name"
-                        />
+                        <input type="text" placeholder="Name" name="name" />
                       </div>
                     </div>
                     <div class="col">
@@ -713,7 +677,7 @@
                         <input
                           type="email"
                           placeholder="Email Address"
-                          name="form-email"
+                          name="email"
                         />
                       </div>
                     </div>
@@ -724,7 +688,7 @@
                         <input
                           type="text"
                           placeholder="Subject"
-                          name="form-subject"
+                          name="subject"
                         />
                       </div>
                     </div>
@@ -736,8 +700,8 @@
                           cols="30"
                           rows="5"
                           id="form-message"
-                          name="form-message"
-                          placeholder="Message"
+                          name="message"
+                          placeholder="How can we help?"
                         ></textarea>
                       </div>
                     </div>
@@ -770,7 +734,7 @@
               </div>
               <p>
                 We are the agency behind some of the leading brands in the
-                market. We help rising brands to prosper.
+                market.
               </p>
             </div>
           </div>
@@ -840,7 +804,7 @@
 
     <!-- footer bottom -->
     <div class="footer-bottom">
-      <span>Copyright © All Right Reserved</span>
+      <span>© Nade Digital 2022</span>
     </div>
     <!-- end footer bottom -->
 
