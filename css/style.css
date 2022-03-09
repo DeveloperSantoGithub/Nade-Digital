@@ -693,6 +693,67 @@ footer ul.social li a i {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  /* services */
+  .services .content h5 {
+    font-size: 17px;
+  }
+  .services .content p {
+    font-size: 13.5px;
+  }
+
+  /* about  */
+
+  .item {
+    width: 100vw;
+    height: 13vh;
+    padding: 0;
+  }
+  .item p {
+    font-size: 15px;
+  }
+  .about .content-tag h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .item .pr-1 {
+    padding-top: 20px;
+  }
+  .item .pr-2,
+  .item .pr-4 {
+    padding-top: 35px;
+  }
+
+  .item .pr-3 {
+    padding-top: 12px;
+  }
+
+  /* certification  */
+
+  .process-work .content {
+    width: 150px;
+    height: 120px;
+  }
+  .process-work .content img {
+    width: 125px;
+  }
+  .process-work .content .basis {
+    text-align: center;
+  }
+  .process-work .content .google {
+    margin-top: 1.7rem;
+  }
+  .process-work .content .microsoft {
+    margin-top: 2.1rem;
+    border-radius: 15px;
+  }
+  .process-work .content .coursera {
+    margin-top: 0.7rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -762,17 +823,34 @@ footer ul.social li a i {
   footer .col-sm-6:nth-last-child(-1n + 2) .content {
     margin-bottom: 0;
   }
-  /* About */
+  /* about  */
 
-  .about .content {
-    padding-left: 3rem;
-  }
   .item {
-    width: 35vw;
-    height: 25vh;
+    width: 100vw;
+    height: 13vh;
+    padding: 0;
+  }
+  .item p {
+    font-size: 15px;
   }
   .about .content-tag h3 {
-    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .item .pr-1 {
+    padding-top: 12px;
+  }
+  .item .pr-2,
+  .item .pr-4 {
+    padding-top: 35px;
+  }
+
+  .item .pr-3 {
+    padding-top: 12px;
   }
 }
 
@@ -852,6 +930,30 @@ footer ul.social li a i {
   .item .pr-3,
   .item .pr-4 {
     padding: 0px;
+  }
+  /* Certification  */
+  .process-work .content {
+    text-align: center;
+    width: 250px;
+    height: 200px;
+  }
+  .process-work .content img {
+    width: 200px;
+    padding: 0.5rem;
+  }
+
+  .process-work .content .basis {
+    text-align: center;
+  }
+  .process-work .content .google {
+    margin-top: 2.7rem;
+  }
+  .process-work .content .microsoft {
+    margin-top: 3.5rem;
+    border-radius: 15px;
+  }
+  .process-work .content .coursera {
+    margin-top: 1.3rem;
   }
 }
 
