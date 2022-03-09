@@ -831,28 +831,28 @@ footer ul.social li a i {
   .home-intro {
     padding-bottom: 0;
   }
-}
 
-.item {
-  width: 100vw;
-  height: 25vh;
-  padding: 0;
-  /* margin-bottom: 40px; */
-}
+  .item {
+    width: 100vw;
+    height: 25vh;
+    padding: 0;
+    /* margin-bottom: 40px; */
+  }
 
-.item p {
-  padding: 0;
-  margin-bottom: 10px;
-  font-weight: 200;
-  font-size: 15px;
-  text-align: center;
-}
+  .item p {
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+  }
 
-.item .pr-1,
-.item .pr-2,
-.item .pr-3,
-.item .pr-4 {
-  padding: 0px;
+  .item .pr-1,
+  .item .pr-2,
+  .item .pr-3,
+  .item .pr-4 {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 380px) {
