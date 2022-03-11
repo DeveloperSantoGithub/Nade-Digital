@@ -63,5 +63,3 @@ $(function () {
     });
   });
 });
-
-// Text animation on scroll:
